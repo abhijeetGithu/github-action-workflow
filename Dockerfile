@@ -1,17 +1,8 @@
-# Use an official Python runtime as the base image
-FROM python:3.8-slim
+# Use a minimal base image
+FROM alpine:3.14
 
-# Set the working directory in the container
-WORKDIR /app
+# Set a label for the image
+LABEL maintainer="abhijeet <abhijeetas8660211r@email.com>"
 
-# Copy the requirements file into the container at /app
-COPY requirements.txt /app/
-
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the rest of the application code into the container at /app
-COPY . /app/
-
-# Command to run when the container is started
-CMD [ "python", "app.py" ]
+# Run a simple command (this can be replaced with any command)
+CMD ["echo", "Hello, Docker World!"]
