@@ -1,6 +1,6 @@
 # GitHub Actions Workflow Tutorial by Abhijeet
 
-Welcome to the GitHub Actions Workflow Tutorial by AbhijeetGithu! This guide will help you understand the basics of creating and using workflows to automate your software development processes using GitHub Actions.
+Welcome to the GitHub Actions Workflow Tutorial by AbhijeetGithu ! This guide will help you understand the basics of creating and using workflows to automate your software development processes using GitHub Actions.
 
 ## What are GitHub Actions?
 
